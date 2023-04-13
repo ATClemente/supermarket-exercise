@@ -1,0 +1,81 @@
+[
+    {
+        "product" : {
+            "name" : "Milk",
+            "code" : "8873"
+        },
+        "pricing" : {
+            "category" : 0,
+            "price": 249
+        }
+    },
+    {
+        "product" : {
+            "name" : "Toothbrush",
+            "code" : "1983"
+        },
+        "pricing" : {
+            "category" : 1,
+            "price" : 199,
+            "options" : {
+                "buyX": 2, 
+                "getY": 1
+            }
+        }
+    },
+    {
+        "product" : {
+            "name" : "Wine",
+            "code" : "0923"
+        },
+        "pricing" : {
+            "category" : 2,
+            "price" : 1549,
+            "options" : {
+                "addTaxes": 1.0925
+            }
+        }
+    },
+    {
+        "product" : {
+            "name" : "Chips",
+            "code" : "6732"
+        },
+        "pricing" : {
+            "category" : 3,
+            "price" : 249,
+            "options" : {
+                "bundleItem" : "4900", 
+                "bundleCost" : 499
+            }
+        }
+    },
+    {
+        "product" : {
+            "name" : "Salsa",
+            "code" : "4900"
+        },
+        "pricing" : {
+            "category" : 3,
+            "price" : 349,
+            "options" : {
+                "bundleItem" : "6732", 
+                "bundleCost" : 499
+            }
+        }
+    },
+    {
+        "product" : {
+            "name" : "Crackers",
+            "code" : "7777"
+        },
+        "pricing" : {
+            "category" : 1,
+            "price" : 100,
+            "options" : {
+                "buyX" : 3, 
+                "getY" : 5
+            }
+        }
+    }
+]
